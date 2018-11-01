@@ -1,0 +1,19 @@
+syntax = "proto2";
+
+package CMSGProto;
+
+message module_info_req
+{
+    required string pc_id = 1;
+	required int32 app_id = 2;
+	required string file_name = 3;
+	required string func_name = 4;
+	required int32 line = 5;
+	required string machine_name = 6;
+	required string time = 7;
+}
+
+message module_info_reply
+{
+    required int32 reply = 1;
+}

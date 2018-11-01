@@ -1,0 +1,25 @@
+syntax = "proto2";
+
+package CMSGProto;
+
+message module_register_req
+{
+    required int32 id = 1;
+    required string name = 2;
+}
+
+message module_register_reply
+{
+    required int32 id = 1;
+    required string name = 2;
+}
+
+message multi_module_register_req
+{
+    repeated module_register_req module_info = 1;
+}
+
+message multi_module_register_reply
+{
+    repeated module_register_reply module_info = 1;
+}
