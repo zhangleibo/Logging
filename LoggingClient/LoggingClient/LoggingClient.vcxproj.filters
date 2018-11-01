@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="protobuf">
+      <UniqueIdentifier>{e123e245-f738-4776-8f6f-eb157060a84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="socket">
+      <UniqueIdentifier>{8bca7e3e-96a1-4cf9-b669-d24f0086b27d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Work.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleRegister.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketImpl.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketApp.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgProtoMgr.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgProtoBase.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoggingClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Work.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\include\protobuf-3.6.1\protoc\ModuleRegister.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\include\protobuf-3.6.1\DEncode\DEecode.cpp">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketImpl.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketApp.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgProtoMgr.cpp">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgProtoBase.cpp">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\include\protobuf-3.6.1\protoc\ModuleInfo.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
